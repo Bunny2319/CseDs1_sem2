@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript</title>
+    <style>
+        header {
+            text-align : center;
+            background-color: lightcoral;
+            font-size: 24px;
+            font-family : Cambria;
+            padding: 5px;
+        }
+        body {
+            font-family :Georgia, 'Times New Roman', Times, serif;
+            font-size : 20px;
+        }
+        h2 {
+            text-align : center;
+        }
+    </style>
+</head>
+<body>
+<header>  <h1>JAVA SCRIPT</h1><br> </header>
+    <h2>Java Script Variables</h2>
+    <ol>
+        <li>let</li>
+        <li>var</li>
+        <li>constant</li>
+    </ol>
+    <h2>Java Script Datatypes</h2>
+    <ol>
+        <li>String : A text of characters enclosed in quotes</li>
+        <li>Number : A number representing a mathematical value</li>
+        <li>Undefined	A primitive variable with no assigned value</li>
+        <li>Boolean : A data type representing true or false</li>
+        <li>Null : A primitive value representing object absence</li>
+    </ol>
+    <script>
+        console.log("var variables");
+        var p=10;                          /* Error : let p=10; */
+        var b="ABES"
+        var c=null;
+        var d=undefined;
+        console.log(p);
+        console.log(b);
+        console.log(c);
+        console.log(d);
+        
+        {
+            let p=20;
+            console.log(p);                 /*  Error : p is already declare */
+        }
+
+        /* let b="College ;
+           b="Engineering ;*/
+        let a="College";
+        a="Engineering";     
+        console.log(a);              
+        
+    </script>
+</body>
+</html>
