@@ -29,14 +29,14 @@ switch (fruit) {
 console.log(message);
 
 //          LOOP
-//      FOR
+//          FOR
 let n = 10;
 console.log("First 10 natural number : ")
 for(let i = 1 ; i<=n ; i++){
     console.log(i);
 }
 
-//      WHILE
+//          WHILE
 console.log("Table of 2 :");
 let num = 1
 while( num < 11){
@@ -44,10 +44,16 @@ while( num < 11){
     num++;
 }
 
-//      DO-WHILE
+//          DO-WHILE
 console.log("Numbers :")
 let i = 1;
 do{
     console.log(i);
     i++;
 }while(i<=3);
+
+//            ARRAY 
+let name = ["Soni", "Monu", "Siya"];
+console.log(name);
+name.push("Riya");
+console.log(name.length);
