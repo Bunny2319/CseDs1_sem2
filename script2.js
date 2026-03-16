@@ -57,3 +57,9 @@ let name = ["Soni", "Monu", "Siya"];
 console.log(name);
 name.push("Riya");
 console.log(name.length);
+
+//            Function
+const add = function(a,b){
+    return a+b;
+};
+console .log(add);
