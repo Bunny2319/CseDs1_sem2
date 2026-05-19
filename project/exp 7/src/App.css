@@ -1,0 +1,26 @@
+.container {
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: #f5c4b9c8;
+  text-align: center;
+  font-family: Cambria;
+}
+
+.card {
+  width: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px gray;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 8px 0;
+}
