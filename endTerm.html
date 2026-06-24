@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ODD-EVEN CHECKER</title>
+    <style>
+        body {
+            font-family: cambria;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            display: flex;
+            justify-content: center;
+            align-items : center;
+            height : 100vh;
+            margin: 0;
+        }
+        h1{
+            font-size : 40px;
+            padding : 10px;
+            color : black;
+        }
+        .container{
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px black;
+            text-align: center;
+            width: 500px;
+        }
+        input {
+            width : 80%;
+            margin: 10px;
+            padding: 8px;
+            font-size : 20px;
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius:8px;
+            background-color: rgb(72, 149, 236);
+            color : white;
+            font-size: 25px;
+        }
+        button:hover{
+            background-color: rgb(55, 79, 237);
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 30px;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ODD EVEN CHECKER</h1>
+        <input type="number" id="num" placeholder="Enter the number">
+        <br><br>
+        <button onclick="check()">CHECK</button>
+        <div id="result"></div>
+    </div>
+    
+    <script>
+    function check(){
+        let n = document.getElementById("num").value;
+        if(n === ""){
+            document.getElementById("result").innerHTML = "Invalid !!! Enter the number";
+            return;
+        }
+        if ((n%2) === 0) {
+            document.getElementById("result").innerHTML = n + " is a EVEN number.";
+        } else {
+            document.getElementById("result").innerHTML = n + " is a ODD number.";
+        }
+    }
+    </script>
+</body>
+</html>
